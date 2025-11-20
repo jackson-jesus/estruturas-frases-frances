@@ -30,7 +30,9 @@ export enum Verb {
   PENSER = "penser",
   TROUVER = "trouver",
   AIMER = "aimer",
-  COMPRENDRE = "comprendre"
+  COMPRENDRE = "comprendre",
+  SE_SOUVENIR = "se souvenir",
+  SEN_ALLER = "s'en aller"
 }
 
 export const VERB_PARTICIPLES: Record<Verb, string> = {
@@ -53,7 +55,9 @@ export const VERB_PARTICIPLES: Record<Verb, string> = {
   [Verb.PENSER]: "pensé",
   [Verb.TROUVER]: "trouvé",
   [Verb.AIMER]: "aimé",
-  [Verb.COMPRENDRE]: "compris"
+  [Verb.COMPRENDRE]: "compris",
+  [Verb.SE_SOUVENIR]: "souvenu",
+  [Verb.SEN_ALLER]: "allé"
 };
 
 export enum Tense {
